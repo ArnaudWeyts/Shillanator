@@ -1,0 +1,10 @@
+{
+  "extName":  {
+    "message": "Shillanator",
+    "description": "The extension name."
+  },
+  "extDescription": {
+    "message": "It's time to fix Hillary's name.",
+    "description": "The extension description."
+  }
+}
