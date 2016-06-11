@@ -1,8 +1,12 @@
 # Shillanator
-A browser extension that replaces content.
+Shillary for corporate America.
 
 ##Chrome
 
+##Firefox
+
+Coming soon&trade;
+
 ##Safari
 
-Not supported yet. Feel free to make a pull request!
+Not supported yet because I don't have $99 laying around 😢.
