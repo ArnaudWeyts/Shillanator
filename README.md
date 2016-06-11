@@ -7,9 +7,9 @@ Shillary for corporate America.
 Available in the chrome webstore soon!
 
 To install manually:
-- download the chrome.crx file from the releases.
-- enter chrome://extensions in your url
-- drag the chrome.crx file into the page
+- Download the chrome.crx file from the releases
+- Enter chrome://extensions in your url
+- Drag the chrome.crx file into the page
 
 
 ##Firefox
