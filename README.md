@@ -4,6 +4,14 @@ Shillary for corporate America.
 
 ##Chrome
 
+Available in the chrome webstore soon!
+
+To install manually:
+- download the chrome.crx file from the releases.
+- enter chrome://extensions in your url
+- drag the chrome.crx file into the page
+
+
 ##Firefox
 
 Coming soon&trade;
