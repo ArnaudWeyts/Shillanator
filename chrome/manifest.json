@@ -21,7 +21,8 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["./js/shillanator.js"]
+      "js": ["./js/shillanator.js"],
+      "run_at": "document_start"
     }
   ]
 }
