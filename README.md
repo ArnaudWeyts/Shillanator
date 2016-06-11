@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ArnaudWeyts/Shillanator.svg?branch=master)](https://travis-ci.org/ArnaudWeyts/Shillanator)
 # Shillanator
 Shillary for corporate America.
 
