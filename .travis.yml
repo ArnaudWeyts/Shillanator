@@ -3,7 +3,7 @@ branches:
   only:
   - master
 before_install:
-  openssl aes-256-cbc -K $encrypted_0a6446eb3ae3_key -iv $encrypted_0a6446eb3ae3_key -in chrome.pem.enc -out chrome.pem -d
+  - openssl aes-256-cbc -K $encrypted_4173e0e94293_key -iv $encrypted_4173e0e94293_iv -in chrome.pem.enc -out chrome.pem -d
 script:
   - ./src/crxmake.sh chrome chrome.pem chrome.crx
 deploy:
@@ -12,7 +12,6 @@ deploy:
   file:
     - chrome.crx
   on:
-    # todo: why does this not properly work
     tags: true
     repo: ArnaudWeyts/Shillanator
     branch: master
