@@ -2,7 +2,7 @@ document.addEventListener("DOMNodeInserted", function(e) {
     walk(document.body);
 }, false);
 
-// source: http://stackoverflow.com/questions/5904914/javascript-regex-to-replace-text-not-in-html-attributes/5904945#5904945
+// credit: http://stackoverflow.com/questions/5904914/javascript-regex-to-replace-text-not-in-html-attributes/5904945#5904945
 function walk(node) {
   var child, next;
 
@@ -26,7 +26,8 @@ function walk(node) {
 function shillify(textNode) {
     var t = textNode.nodeValue
 
-    t = t.replace(/\bhillary/g, "shillary")
+    t = t.replace(/\bHillary for America/g, "Shillary for corporate America")
+        .replace(/\bhillary/g, "shillary")
         .replace(/\bHillary/g, "Shillary");
 
     textNode.nodeValue = t;
