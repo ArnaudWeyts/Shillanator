@@ -1,3 +1,4 @@
+// can't be bothered to make a test tbh
 var main = require("../");
 
 exports["test main"] = function(assert) {
