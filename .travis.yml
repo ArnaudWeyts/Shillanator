@@ -12,8 +12,8 @@ deploy:
   skip_cleanup: true
   file_glob: true
   file:
-  - chrome.crx
-  - /firefox/*.xpi
+  - "chrome.crx"
+  - "/firefox/*.xpi"
   on:
     repo: ArnaudWeyts/Shillanator
     tags: true
