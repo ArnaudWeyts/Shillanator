@@ -1,0 +1,35 @@
+{
+  "title": "Shillanator",
+  "name": "shillanator",
+  "version": "0.1.2",
+  "description": "Shillary for corporate America.",
+  "main": "index.js",
+  "dependencies": {
+    "jpm": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "jpm": "jpm",
+    "xpimake": "sh xpimake.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnaudWeyts/Shillanator.git"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "shillanator"
+  ],
+  "author": "Arnaud Weyts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnaudWeyts/Shillanator/issues"
+  },
+  "homepage": "https://github.com/ArnaudWeyts/Shillanator#readme"
+}

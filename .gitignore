@@ -1,4 +1,6 @@
 .DS_Store
 *.crx
+*.xpi
 *.pem
 *.ai
+/firefox/node_modules
