@@ -1,4 +1,4 @@
 #!/bin/bash -e
-cd ../firefox
+cd ./../firefox
 npm install
 npm run xpimake
