@@ -2,6 +2,7 @@ language: shell
 branches:
   only:
   - master
+  - /v\d+(?:\.\d+)+/
 before_install:
 - openssl aes-256-cbc -K $encrypted_4173e0e94293_key -iv $encrypted_4173e0e94293_iv
   -in chrome.pem.enc -out chrome.pem -d
