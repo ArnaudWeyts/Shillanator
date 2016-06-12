@@ -5,3 +5,4 @@ if [[ $1 == "prod" ]]; then
     jpm sign --api-key $FIREFOX_API --api-secret $FIREFOX_SECRET --xpi *.xpi
     rm @*.xpi
 fi
+mv *.xpi ../firefox.xpi
