@@ -14,9 +14,10 @@ deploy:
   api_key:
     secure: mAHcLhVE53rihwAJm9swf0L26c/SXAQUnrJ475AeZUJo5tpf4gDyHRZy4So6Q1lDbIwLQQa2I1ux5Lb9XkruR4ofRcMLddlV7Rz552denmXRHZJ8eUZAyRKsw8t6MBfqpysKTBtmJW+VcXG0iNT1IJQqJUBGvCYu3Ay/Yw5HJ/+Eu/yiY5HUPJxTDTb15MQ+KPQuVzeGtxxGRauzn3Uq+5KGD8KHRzpqpVLb0LWsdDkUJxLzYUZbjHSXTm63e6MyvGvkU8g8A+od9cFbZmQOLbD71StmBHcYNFuHOXIdUJtOmjXlZ1iAdiQRDKFZRcunrqsG200DiQ+3DEUUP4O9osuoCrzugjdR30EOJc5c6LMiiExC+Wn1S2MNPBpOYmBXOapGdWqeXTRHWMi+7BWEX2PUL59L6oHtj+ssP8qYjjmSOXR3xYzYxKmSDJkbA6L+xtsCi7G3rrb0htEkHS8bNFHPTtWPzbDkqCzuwESqwE55+q3QeGBGz88nJ5ImpvLG7HDHpP72Ylm7zL40o+kwI/b2sgp0eEZ8wi6XMYx1Ox+gFI0q0slVx5tqPyryrZFlnZHWjO0M441i99G/0tmpW/7P0Dzbd+TDDOUXntaGYg+ZXy8cubbeW6e9rzmulCQXFWQcQUoxii2B0XwzC1RdQrUDgu0lIKb8aYFWfN1VDDQ=
   skip_cleanup: true
+  file_glob: true
   file:
   - chrome.crx
-  - /firefox/@shillanator-0.1.2.xpi
+  - /firefox/*.xpi
   on:
     repo: ArnaudWeyts/Shillanator
     tags: true

@@ -3,4 +3,5 @@
 *.xpi
 *.pem
 *.ai
+*.back
 /firefox/node_modules
