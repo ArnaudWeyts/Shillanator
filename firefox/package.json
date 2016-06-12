@@ -1,7 +1,7 @@
 {
   "title": "Shillanator",
   "name": "shillanator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shillary for corporate America.",
   "main": "index.js",
   "dependencies": {
