@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "jpm": "jpm",
-    "xpimake": "./xpimake.sh",
+    "xpimake-beta": "./xpimake.sh beta",
+    "xpimake-prod": "./xpimake.sh prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
