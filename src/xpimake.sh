@@ -15,4 +15,4 @@ if [[ $VERSION != *"beta"* ]];then
     rm @*.xpi
 fi
 # move the xpi file to the root directory
-mv "shillanator*.xpi" "$TRAVIS_BUILD_DIR/firefox.xpi"
+mv ./shillanator*.xpi "$TRAVIS_BUILD_DIR/firefox.xpi"
