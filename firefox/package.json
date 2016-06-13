@@ -1,7 +1,7 @@
 {
   "title": "Shillanator",
   "name": "shillanator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Shillary for corporate America.",
   "main": "index.js",
   "dependencies": {
@@ -9,9 +9,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "jpm": "jpm",
-    "xpimake-beta": "./xpimake.sh beta",
-    "xpimake-prod": "./xpimake.sh prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
