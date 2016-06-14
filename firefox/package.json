@@ -1,9 +1,10 @@
 {
   "title": "Shillanator",
   "name": "shillanator",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Shillary for corporate America.",
   "main": "index.js",
+  "icon": "resource://@shillanator/data/icon48.png",
   "dependencies": {
     "jpm": "^1.0.7"
   },
