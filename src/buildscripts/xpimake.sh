@@ -1,4 +1,5 @@
 #!/bin/bash -e
+# @author Arnaud Weyts
 # this uses npm & jpm to make the xpi file
 if test $# -ne 1; then
   echo "Usage: xpimake.sh <add-on dir>"

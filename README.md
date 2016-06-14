@@ -15,6 +15,8 @@ or try opening the file with Chrome.
 
 ##Firefox
 
+Currently under review, soon available!
+
 To install manually:
 - Download the shillanator.xpi file from the releases
 - Enter about:extensions in as your url
@@ -32,4 +34,4 @@ Not supported yet because I don't have $99 laying around 😢.
 
 ##Extra information
 
-This repo is optmized for usage with Travis-ci, take a look at the build scripts in the src/ folder if you wanna replicate this setup.
+This repo is optmized for usage with Travis-CI, take a look at the build scripts in the src/ folder if you wanna replicate this setup.
