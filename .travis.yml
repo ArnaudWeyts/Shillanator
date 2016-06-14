@@ -4,7 +4,7 @@ before_install:
   -in chrome.pem.enc -out chrome.pem -d
 script:
 - ./src/crxmake.sh chrome chrome.pem chrome.crx
-- ./src/xpimake.sh
+- ./src/xpimake.sh firefox
 deploy:
   provider: releases
   api_key:
@@ -16,7 +16,6 @@ deploy:
   on:
     repo: ArnaudWeyts/Shillanator
     tags: true
-    all_branches: true
 env:
   global:
   - secure: Oxae6Jt6yijq4k+8RYZm91RVWd7ZqFt4o57OFdt4m5YTIXmXIZUL9qjpuN+0qiRIz5jeR9SRp5eKJIIhzVyRPMv8z+PMoLNqfFaRdysMEtOjf6doEqAT7dkkaXkBcA2CalSao5kdvpDj82C9H6ksIo5IUGQ4iwNuf73iqx1DQ8WxJ8WGJ1+yLnKR0bRB4Cc22SoWjds3xZkFBCcmleud1HEwj90FaG9rQAe2POaBdaq9DhhZ2P/MPKYPyW8J1JtQeo2RFsqLtDPbNxkoBxFIF7tb1vMM+piS0WjWfDUiFti5Q5DAM2BOV9BtvGCkYqQZc/T/l1Kuaq3azsQ08atZq3HZNqop6+ULJ3B3eToM0SBAcImjPPjN4HDgNYRNS86P5kEH6ECkEiwKmXNCbdbPtE4Gn9dhFrXO6lXsdQuvOAnF5HhsC/nsbow6mMxNBUzqd6kDn+NoMZoZ+/+Ydxs3gasV52RTmHAWj+cd/N+Lewv5FGoac2FKmJxZpbceaDwcsd0h6Z1v/ajl8GpvN9Uj9mRcTXaAGGsiApJbMTafl4k0SquA6W1vYQD1Gu1CNTPw/XyIRZ3sEXHdiP6Ncq/VoV9t6FK3juVMFgN9O7mQ/G3peauJsjV5iO/cpzx6cJ1R71hJrZsvaxsTeacsC2N8w+o7oheO7xjtDdUMD7ZLYBw=
