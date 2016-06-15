@@ -13,11 +13,15 @@ To install manually:
 
 or try opening the file with Chrome.
 
+Reminder: because the extension is not listed in the chrome webstore, the stable version of chrome will disable the extension after a relaunch.
+
 ##Firefox
 
-Currently under review, soon available!
+You can install the add-on [here](https://addons.mozilla.org/en-US/firefox/addon/shillanatorfirefox/).
 
-To install manually:
+Reminder: the add-on is currently under review and won't be listed until then.
+
+To install a newer release manually:
 - Download the shillanator.xpi file from the releases
 - Enter about:extensions in as your url
 - Select the shillanator.xpi file and install
