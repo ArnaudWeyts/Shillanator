@@ -19,8 +19,6 @@ Reminder: because the extension is not listed in the chrome webstore, the stable
 
 You can install the add-on [here](https://addons.mozilla.org/en-US/firefox/addon/shillanatorfirefox/).
 
-Reminder: the add-on is currently under review and won't be listed until then.
-
 To install a newer release manually:
 - Download the shillanator.xpi file from the releases
 - Enter about:extensions in as your url
